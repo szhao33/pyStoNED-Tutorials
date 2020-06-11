@@ -1,6 +1,6 @@
-# pyStoNED Tutorials
+# A Package for Stochastic Nonparametric Envelopment of Data (StoNED) in Python
 
-  > **pyStoNED**
+  > **Introduction**
 
 
   > **Data description**
@@ -21,9 +21,6 @@
   + Corrected convex nonparametric least squares (C<sup>2</sup>NLS)
   + Isotonic Convex Nonparametric Least Square (`ICNLS`)
 
-  + Additional tutorials:
-  	+ [Rewrite GAMS codes in Python](https://github.com/ds2010/StoNED-Python/blob/master/Tutorials/gams2python.ipynb)
-  	+ [A ConcreteModel for CNLS estimation](https://github.com/ds2010/StoNED-Python/blob/master/Tutorials/ConcreteModel.ipynb)
 
   > **Comparison with GAMS**
 
@@ -40,5 +37,8 @@
 
   + Solver
 
+  + Additional tutorials:
+    + [Rewrite GAMS codes in Python](https://github.com/ds2010/StoNED-Python/blob/master/Tutorials/gams2python.ipynb)
+    + [A ConcreteModel for CNLS estimation](https://github.com/ds2010/StoNED-Python/blob/master/Tutorials/ConcreteModel.ipynb)
 
   > **References**
