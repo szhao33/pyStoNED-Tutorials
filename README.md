@@ -5,10 +5,12 @@
   + Introduction
 
   + Function List
-    The entire [function list](https://github.com/ds2010/StoNED-Python/blob/master/Tutorials/function_list.ipynb) and syntax in [`pyStoNED`](https://pypi.org/project/pystoned/) package can be seen from [Tutorials](https://github.com/ds2010/StoNED-Python/tree/master/Tutorials).
+
+        The entire [function list](https://github.com/ds2010/StoNED-Python/blob/master/Tutorials/function_list.ipynb) and syntax in [`pyStoNED`](https://pypi.org/project/pystoned/) package can be seen from [Tutorials](https://github.com/ds2010/StoNED-Python/tree/master/Tutorials).
 
   + List of Acronyms
-    The complete [list of acronyms](https://github.com/ds2010/StoNED-Python/blob/master/Tutorials/list_of_acronyms.ipynb) and symbols is available at [Tutorials](https://github.com/ds2010/StoNED-Python/tree/master/Tutorials).
+  
+        The complete [list of acronyms](https://github.com/ds2010/StoNED-Python/blob/master/Tutorials/list_of_acronyms.ipynb) and symbols is available at [Tutorials](https://github.com/ds2010/StoNED-Python/tree/master/Tutorials).
 
   + Solver
 
