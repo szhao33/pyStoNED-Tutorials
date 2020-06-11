@@ -5,6 +5,7 @@
 
   > **Data description**
 
+  + [Regulation of Finnish electricity distribution firms](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Data/data_description.ipynb)
 
   > **StoNED-related model estimation**
 
