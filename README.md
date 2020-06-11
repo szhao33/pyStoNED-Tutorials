@@ -1,4 +1,4 @@
-# A Package for Stochastic Nonparametric Envelopment of Data (StoNED) in Python
+# **pyStoNED** tutorials
 
   > **Introduction**
 
