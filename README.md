@@ -2,19 +2,11 @@
 
   > **pyStoNED**
 
-  + Introduction
 
-  + Function List
+  > **Data description**
 
-      The entire [function list](https://github.com/ds2010/StoNED-Python/blob/master/Tutorials/function_list.ipynb) and syntax in [`pyStoNED`](https://pypi.org/project/pystoned/) package can be seen from [Tutorials](https://github.com/ds2010/StoNED-Python/tree/master/Tutorials).
 
-  + List of Acronyms
-  
-      The complete [list of acronyms](https://github.com/ds2010/StoNED-Python/blob/master/Tutorials/list_of_acronyms.ipynb) and symbols is available at [Tutorials](https://github.com/ds2010/StoNED-Python/tree/master/Tutorials).
-
-  + Solver
-
-  > **StoNED-related models**
+  > **StoNED-related model estimation**
 
   + Convex Nonparametric Least Square (`CNLS`)
     + [Production function estimation](https://github.com/ds2010/StoNED-Python/blob/master/Tutorials/CNLS_prod.ipynb)
@@ -32,5 +24,21 @@
   + Additional tutorials:
   	+ [Rewrite GAMS codes in Python](https://github.com/ds2010/StoNED-Python/blob/master/Tutorials/gams2python.ipynb)
   	+ [A ConcreteModel for CNLS estimation](https://github.com/ds2010/StoNED-Python/blob/master/Tutorials/ConcreteModel.ipynb)
+
+  > **Comparison with GAMS**
+
+
+  > **Appendix**
+
+  + Function List
+
+      The entire [function list](https://github.com/ds2010/StoNED-Python/blob/master/Tutorials/function_list.ipynb) and syntax in [`pyStoNED`](https://pypi.org/project/pystoned/) package can be seen from [Tutorials](https://github.com/ds2010/StoNED-Python/tree/master/Tutorials).
+
+  + List of Acronyms
+  
+      The complete [list of acronyms](https://github.com/ds2010/StoNED-Python/blob/master/Tutorials/list_of_acronyms.ipynb) and symbols is available at [Tutorials](https://github.com/ds2010/StoNED-Python/tree/master/Tutorials).
+
+  + Solver
+
 
   > **References**
