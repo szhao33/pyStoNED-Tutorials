@@ -1,8 +1,9 @@
-# Productivity and Efficiency Analysis (**PEA**)
-This repository provides pyStoNED tutorials authored by [Sheng Dai](https://www.researchgate.net/profile/Sheng_Dai8).
+# pyStoNED Tutorials
+This repository provides pyStoNED tutorials:
+
   + pyStoNED intro
-    + Function list
-    + Aacronyms list
+    + Function List
+    + List of Acronyms
 
   + Convex Nonparametric Least Square (`CNLS`)
     + [Production function estimation](https://github.com/ds2010/StoNED-Python/blob/master/Tutorials/CNLS_prod.ipynb)
