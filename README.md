@@ -22,7 +22,7 @@
   + Isotonic Convex Nonparametric Least Square (`ICNLS`)
 
 
-  > **Comparison with GAMS**
+  > **Comparison with estimates from GAMS**
 
 
   > **Appendix**
