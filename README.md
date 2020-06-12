@@ -2,7 +2,7 @@
 
   > **Introduction**
 
-  pyStoNED is a Python package that provides functions for efficiency measurement using Stochastic Nonparametric Envelopment of Data (StoNED). It allows the user to estimate the various StoNED-related models in an open-access environment rather than in commercial software (e.g., GAMS).
+  [`pyStoNED`](https://pypi.org/project/pystoned/) is a Python package that provides functions for efficiency measurement using Stochastic Nonparametric Envelopment of Data ([`StoNED`](https://link.springer.com/article/10.1007/s11123-010-0201-3)). It allows the user to estimate the various StoNED-related models in an open-access environment rather than in commercial software (e.g., `GAMS` and `MATLAB`).
 
   > **Data description**
 
