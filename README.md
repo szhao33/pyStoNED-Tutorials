@@ -40,6 +40,6 @@
 
   > **Extra tutorials**
 
-  + [Rewrite GAMS codes in Python](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Extra_tutorials/gams2python.ipynb)
-  + [A ConcreteModel for CNLS model](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Extra_tutorials/CNLS_ConcreteModel.ipynb)
-  + [A ConcreteModel for DEA model](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Extra_tutorials/DEA_ConcreteModel.ipynb)
+  + [Rewrite GAMS codes in Python](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Extra/gams2python.ipynb)
+  + [A ConcreteModel for CNLS model](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Extra/CNLS_ConcreteModel.ipynb)
+  + [A ConcreteModel for DEA model](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Extra/DEA_ConcreteModel.ipynb)
