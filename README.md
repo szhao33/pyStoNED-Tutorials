@@ -28,15 +28,11 @@
 
   > **Appendix**
 
-  + Function List
+  + [Function List(https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Intro/Function%20List.ipynb) 
 
-      The entire [function list](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Intro/Function%20List.ipynb) and syntax in [`pyStoNED`](https://pypi.org/project/pystoned/) package can be seen from [Tutorials](https://github.com/ds2010/pyStoNED-Tutorials).
+  + [list of acronyms](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Intro/List%20of%20Acronyms.ipynb)
 
-  + List of Acronyms
-  
-      The complete [list of acronyms](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Intro/List%20of%20Acronyms.ipynb) and symbols is available at [Tutorials](https://github.com/ds2010/pyStoNED-Tutorials).
-
-  + Solver
+  + [Solver](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Intro/Solver.ipynb)
 
   > **Extra tutorials**
 
