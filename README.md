@@ -28,7 +28,7 @@
 
   > **Appendix**
 
-  + [Function List(https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Intro/Function%20List.ipynb) 
+  + [Function List](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Intro/Function%20List.ipynb) 
 
   + [list of acronyms](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Intro/List%20of%20Acronyms.ipynb)
 
