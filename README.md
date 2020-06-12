@@ -15,7 +15,7 @@
 
   + Stochastic Nonparametric Envelopment of Data (`StoNED`)
     + [Log-transformed cost function estimation and residual decomposition by MoM](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/StoNED/StoNED.ipynb)
-    + Estimating unconditional expected inefficiency ![equation](https://latex.codecogs.com/gif.latex?%5Cmu) by KDE
+    + Estimating unconditional expected inefficiency (`mu`) by KDE
     + [StoNED with Z-variable](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/StoNEZD/StoNEZD.ipynb)
  
   + [Convex quantile/expectile regression (`CQR` and `CER`)](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/CQR/CQR_CER.ipynb)
