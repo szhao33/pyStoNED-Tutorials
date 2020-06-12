@@ -8,7 +8,7 @@
 
   + [Regulation of Finnish electricity distribution firms](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Data/data_description.ipynb)
 
-  > **StoNED-related model estimation**
+  > **StoNED-related models estimation**
 
   + Convex Nonparametric Least Square (`CNLS`)
     + [Production function](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/CNLS/CNLS_prod.ipynb)
