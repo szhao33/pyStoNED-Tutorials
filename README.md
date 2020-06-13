@@ -31,8 +31,8 @@
     + Isotonic Convex Expectile Regression (`ICER`)
   
   + Multiplicative Composite Error Term
-    + [Log-transformed production function estimated by CNLS]()
-    + [Log-transformed production function estimated by CER]()
+    + [Log-transformed production function estimated by CNLS](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Multiplicative%20error/log_prod_CNLS.ipynb)
+    + [Log-transformed production function estimated by CER](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Multiplicative%20error/Log_prod_CER.ipynb)
 
   + Multiple Outputs (DDF Formulation)
     + Undesirable output
