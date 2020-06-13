@@ -31,8 +31,8 @@
     + Isotonic Convex Expectile Regression (`ICER`)
   
   + Multiplicative Composite Error Term
-    + [Log-transformed production function]()
-    + [Log-transformed cost function]()
+    + [Log-transformed production function estimated by CNLS]()
+    + [Log-transformed production function estimated by CER]()
 
   + Multiple Outputs (DDF Formulation)
     + Undesirable output
