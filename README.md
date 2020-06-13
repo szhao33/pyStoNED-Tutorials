@@ -32,7 +32,7 @@
     + [Radial input oriented VRS model](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA_io_vrs.ipynb)
     + [Radial output oriented VRS model](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA_oo_vrs.ipynb)
     + [Directional VRS model](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA_ddf_vrs.ipynb)
-    + Directional VRS model with undesirable outputs
+    + [Undesirable output (DDF)](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA_UndesirableOutput.ipynb)
     + [Changing the reference set](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA_changeReferenceSet.ipynb)   
 
   > **Comparison with estimates from GAMS**
