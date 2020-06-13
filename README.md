@@ -16,8 +16,9 @@
     + [Cost function](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/CNLS/CNLS_cost.ipynb)
 
   + Stochastic Nonparametric Envelopment of Data (`StoNED`)
-    + [residual decomposition by MoM](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/StoNED/StoNED.ipynb)
-    + Estimating unconditional expected inefficiency (`mu`) by KDE
+    + [Method of moment (`MoM`)](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/StoNED/StoNED.ipynb)
+    + [Quasi-likelihood Estimation (`QLE`)]()
+    + [Kernel Density Estimation (`KDE`)]()
 
   + Corrected Convex Nonparametric Least Squares (C<sup>2</sup>NLS)
 
