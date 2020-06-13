@@ -15,23 +15,28 @@
     + [Production function](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/CNLS/CNLS_prod.ipynb)
     + [Cost function](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/CNLS/CNLS_cost.ipynb)
 
-  + Corrected convex nonparametric least squares (C<sup>2</sup>NLS)
+  + Stochastic Nonparametric Envelopment of Data (`StoNED`)
+    + [Log-transformed cost function estimation and residual decomposition by MoM](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/StoNED/StoNED.ipynb)
+    + Estimating unconditional expected inefficiency (`mu`) by KDE
 
-  + Isotonic Convex Nonparametric Least Square (`ICNLS`)
-
-  + Multiplicative Composite Error Term
+  + Corrected Convex Nonparametric Least Squares (C<sup>2</sup>NLS)
 
   + Convex quantile approaches (`CQR` and `CER`)
-    + [Convex quantile regression](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/CQR/CQR.ipynb)
-    + [Convex expectile regression](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/CQR/CER.ipynb)
+    + [Convex Quantile Regression](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/CQR/CQR.ipynb)
+    + [Convex Expectile Regression](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/CQR/CER.ipynb)
  
+  + Monotonic versions
+    + Isotonic Convex Nonparametric Least Square (`ICNLS`)
+    + Isotonic Convex Quantile Regression (`ICNLS`)
+    + Isotonic Convex Expectile Regression (`ICNLS`)
+  
+  + Multiplicative Composite Error Term
+
   + Multiple Outputs (DDF Formulation)
     + Undesirable output
     + without undesirable output
 
-  + Stochastic Nonparametric Envelopment of Data (`StoNED`)
-    + [Log-transformed cost function estimation and residual decomposition by MoM](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/StoNED/StoNED.ipynb)
-    + Estimating unconditional expected inefficiency (`mu`) by KDE
+  + `Z`-variables
     + [StoNED with Z-variable](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/StoNEZD/StoNEZD.ipynb)
 
   + Data Envelopment Analysis (`DEA`)
