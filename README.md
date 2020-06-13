@@ -15,11 +15,6 @@
     + [Production function](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/CNLS/CNLS_prod.ipynb)
     + [Cost function](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/CNLS/CNLS_cost.ipynb)
 
-  + Stochastic Nonparametric Envelopment of Data (`StoNED`)
-    + [Log-transformed cost function estimation and residual decomposition by MoM](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/StoNED/StoNED.ipynb)
-    + Estimating unconditional expected inefficiency (`mu`) by KDE
-    + [StoNED with Z-variable](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/StoNEZD/StoNEZD.ipynb)
- 
   + Convex quantile approaches (`CQR` and `CER`)
     + [Convex quantile regression](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/CQR/CQR.ipynb)
     + [Convex expectile regression](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/CQR/CER.ipynb)
@@ -34,6 +29,11 @@
     + [Directional VRS model](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA_ddf_vrs.ipynb)
     + [Undesirable output (DDF)](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA_UndesirableOutput.ipynb)
     + [Changing the reference set](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA_changeReferenceSet.ipynb)   
+
+  + Stochastic Nonparametric Envelopment of Data (`StoNED`)
+    + [Log-transformed cost function estimation and residual decomposition by MoM](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/StoNED/StoNED.ipynb)
+    + Estimating unconditional expected inefficiency (`mu`) by KDE
+    + [StoNED with Z-variable](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/StoNEZD/StoNEZD.ipynb)
 
   > **Comparison with estimates from GAMS**
 
