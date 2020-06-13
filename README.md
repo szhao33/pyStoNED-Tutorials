@@ -16,7 +16,7 @@
     + [Cost function](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/CNLS/CNLS_cost.ipynb)
 
   + Stochastic Nonparametric Envelopment of Data (`StoNED`)
-    + [Method of moment (`MoM`)](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/StoNED/StoNED.ipynb)
+    + [Method of Moment (`MoM`)](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/StoNED/StoNED.ipynb)
     + [Quasi-likelihood Estimation (`QLE`)]()
     + [Kernel Density Estimation (`KDE`)]()
 
