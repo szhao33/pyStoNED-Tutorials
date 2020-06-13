@@ -55,7 +55,7 @@
   > **Appendix**
 
   + [Function List](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Intro/Function%20List.ipynb) 
-  + [List of Acronyms](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Intro/List%20of%20Acronyms.ipynb)
+  + [List of Acronyms](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Intro/List%20of%20Acronyms.pdf)
   + [Solver](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Intro/Solver.ipynb)
 
   > **Extra tutorials**
