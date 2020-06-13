@@ -37,7 +37,7 @@
 
   + Multiple Outputs (DDF Formulation)
     + [Undesirable output](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Multiple%20Outputs/DDF_UndesirableOutput.ipynb)
-    + [without undesirable output](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Multiple%20Outputs/DDF_withoutUndesirableOutput.ipynb)
+    + [Without undesirable output](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Multiple%20Outputs/DDF_withoutUndesirableOutput.ipynb)
 
   + `Z`-variables
     + [StoNED with Z-variable](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Z%20variables/StoNEZD.ipynb)
