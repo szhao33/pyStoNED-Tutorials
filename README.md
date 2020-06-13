@@ -37,7 +37,7 @@
     + without undesirable output
 
   + `Z`-variables
-    + [StoNED with Z-variable](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/StoNEZD/StoNEZD.ipynb)
+    + [StoNED with Z-variable](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Z%20variables/StoNEZD.ipynb)
 
   + Data Envelopment Analysis (`DEA`)
     + [Radial input oriented VRS model](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA_io_vrs.ipynb)
