@@ -16,7 +16,7 @@
     + [Cost function](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/CNLS/CNLS_cost.ipynb)
 
   + Stochastic Nonparametric Envelopment of Data (`StoNED`)
-    + [Log-transformed cost function estimation and residual decomposition by MoM](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/StoNED/StoNED.ipynb)
+    + [residual decomposition by MoM](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/StoNED/StoNED.ipynb)
     + Estimating unconditional expected inefficiency (`mu`) by KDE
 
   + Corrected Convex Nonparametric Least Squares (C<sup>2</sup>NLS)
@@ -31,6 +31,8 @@
     + Isotonic Convex Expectile Regression (`ICER`)
   
   + Multiplicative Composite Error Term
+    + [Log-transformed production function]()
+    + [Log-transformed cost function]()
 
   + Multiple Outputs (DDF Formulation)
     + Undesirable output
