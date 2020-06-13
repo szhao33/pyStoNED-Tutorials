@@ -36,8 +36,8 @@
     + [Log-transformed production function estimated by CER](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Multiplicative%20error/Log_prod_CER.ipynb)
 
   + Multiple Outputs (DDF Formulation)
-    + [Undesirable output]()
-    + [without undesirable output]()
+    + [Undesirable output](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Multiple%20Outputs/DDF_UndesirableOutput.ipynb)
+    + [without undesirable output](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Multiple%20Outputs/DDF_withoutUndesirableOutput.ipynb)
 
   + `Z`-variables
     + [StoNED with Z-variable](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Z%20variables/StoNEZD.ipynb)
