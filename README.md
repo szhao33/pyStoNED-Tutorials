@@ -22,13 +22,13 @@
   + Corrected Convex Nonparametric Least Squares (C<sup>2</sup>NLS)
 
   + Convex quantile approaches (`CQR` and `CER`)
-    + [Convex Quantile Regression](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/CQR/CQR.ipynb)
-    + [Convex Expectile Regression](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/CQR/CER.ipynb)
+    + [Convex Quantile Regression](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/CQR%20and%20CER/CQR.ipynb)
+    + [Convex Expectile Regression](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/CQR%20and%20CER/CER.ipynb)
  
-  + Monotonic versions
+  + Monotonic version
     + Isotonic Convex Nonparametric Least Square (`ICNLS`)
-    + Isotonic Convex Quantile Regression (`ICNLS`)
-    + Isotonic Convex Expectile Regression (`ICNLS`)
+    + Isotonic Convex Quantile Regression (`ICQR`)
+    + Isotonic Convex Expectile Regression (`ICER`)
   
   + Multiplicative Composite Error Term
 
