@@ -12,8 +12,8 @@
   > **StoNED-related models estimation**
 
   + Convex Nonparametric Least Square (`CNLS`)
-    + [Production function](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/CNLS/CNLS_prod.ipynb)
-    + [Cost function](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/CNLS/CNLS_cost.ipynb)
+    + [Production function](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/CNLS/CNLS_prod.ipynb)
+    + [Cost function](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/CNLS/CNLS_cost.ipynb)
 
   + Stochastic Nonparametric Envelopment of Data (`StoNED`)
     + [Method of Moment (`MoM`)](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/StoNED/StoNED_MoM.ipynb)
