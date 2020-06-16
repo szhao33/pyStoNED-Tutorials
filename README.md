@@ -27,9 +27,9 @@
     + [Convex Expectile Regression](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/CQR%20and%20CER/CER.ipynb)
  
   + Monotonic version
-    + Isotonic Convex Nonparametric Least Square (`ICNLS`)
-    + Isotonic Convex Quantile Regression (`ICQR`)
-    + Isotonic Convex Expectile Regression (`ICER`)
+    + [Isotonic Convex Nonparametric Least Square (`ICNLS`)](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/Monotonic%20version/ICNLS.ipynb)
+    + [Isotonic Convex Quantile Regression (`ICQR`)](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/Monotonic%20version/ICQR.ipynb)
+    + [Isotonic Convex Expectile Regression (`ICER`)](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/Monotonic%20version/ICER.ipynb)
   
   + Multiplicative Composite Error Term
     + [Log-transformed production function estimated by `CNLS`](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/Multiplicative%20error/log_prod_CNLS.ipynb)
