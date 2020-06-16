@@ -20,8 +20,6 @@
     + [Quasi-likelihood Estimation (`QLE`)](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/StoNED/StoNED_QLE.ipynb)
     + [Kernel Density Estimation (`KDE`)](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/StoNED/StoNED_KDE.ipynb)
 
-  + Corrected Convex Nonparametric Least Squares (C<sup>2</sup>NLS)
-
   + Convex quantile approaches (`CQR` and `CER`)
     + [Convex Quantile Regression](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/CQR%20and%20CER/CQR.ipynb)
     + [Convex Expectile Regression](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/CQR%20and%20CER/CER.ipynb)
@@ -41,6 +39,8 @@
 
   + `Z`-variables
     + [StoNED with Z-variable](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/Z%20variables/StoNEZD.ipynb)
+
+  + Corrected Convex Nonparametric Least Squares (C<sup>2</sup>NLS)  
 
   + Data Envelopment Analysis (`DEA`)
     + [Radial input oriented VRS model](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA_io_vrs.ipynb)
