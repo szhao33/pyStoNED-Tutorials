@@ -41,7 +41,8 @@
     + [StoNED with Z-variable](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/Z%20variables/StoNEZD.ipynb)
 
   + Corrected Convex Nonparametric Least Squares (C<sup>2</sup>NLS)  
-
+    + [`CCNLS`model](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/CCNLS/CCNLS.ipynb)
+    
   + Data Envelopment Analysis (`DEA`)
     + [Radial input oriented VRS model](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA_io_vrs.ipynb)
     + [Radial output oriented VRS model](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA_oo_vrs.ipynb)
