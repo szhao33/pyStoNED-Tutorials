@@ -49,7 +49,7 @@
     + [Directional VRS model](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA_ddf_vrs.ipynb)
     + [Undesirable output (DDF)](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA_UndesirableOutput.ipynb)
     + [Changing the reference set](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA_changeReferenceSet.ipynb)
-    + [`DEA` as sign-constrained variant of the `CNLS` problem]()
+    + [`DEA` as sign-constrained variant of the `CNLS` problem](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA2CNLS.ipynb)
    
   > **Comparison with estimates from GAMS**
 
