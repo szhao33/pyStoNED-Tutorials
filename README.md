@@ -42,14 +42,15 @@
 
   + Corrected Convex Nonparametric Least Squares (C<sup>2</sup>NLS)  
     + [`CCNLS`model](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/CCNLS/CCNLS.ipynb)
-    
+   
   + Data Envelopment Analysis (`DEA`)
     + [Radial input oriented VRS model](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA_io_vrs.ipynb)
     + [Radial output oriented VRS model](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA_oo_vrs.ipynb)
     + [Directional VRS model](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA_ddf_vrs.ipynb)
     + [Undesirable output (DDF)](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA_UndesirableOutput.ipynb)
-    + [Changing the reference set](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA_changeReferenceSet.ipynb)   
-
+    + [Changing the reference set](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA_changeReferenceSet.ipynb)
+    + [`DEA` as sign-constrained variant of the CNLS problem]()
+   
   > **Comparison with estimates from GAMS**
 
 
