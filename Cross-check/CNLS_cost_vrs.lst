@@ -1,0 +1,160 @@
+GAMS 30.3.0  rc5da09e Released Mar  6, 2020 WEX-WEI x86 64bit/MS Windows                                                                                                                                                               06/18/20 22:48:27 Page 1
+CNLS: production function
+C o m p i l a t i o n
+
+
+   2  *      by Sheng Dai June 2020
+   3   
+   4  sets i       "DMU's"    /1*10/
+   5       j       'input and output' /j1, j2/
+   6       inp(j)  'input'   /j1/
+   7       outp(j) 'output'  /j2/
+   8  ;
+   9   
+  10  Alias (i,h)
+  11  ;
+  12   
+  13  Table data(i,j)
+  14     j1   j2
+  15  1  100  75
+  16  2  200  100
+  17  3  300  300
+  18  4  500  400
+  19  5  100  25
+  20  6  200  50
+  21  7  600  400
+  22  8  400  260
+  23  9  550  180
+  24  10 600  240
+  25  ;
+  26   
+  27  PARAMETERS
+  28     x(i,inp)  'inputs of firm i'
+  29     y(i)      'outputs of firm i'
+  30  ;
+  31   
+  32  x(i,inp) = data(i,inp);
+  33  y(i)     = data(i,'j2');
+  34   
+  35   Variables  alpha(i)      'intercept term'
+  36              beta(i,j)     'input coefficients'
+  37              e(i)          'error terms'
+  38              sse           'sum of squared errors'
+  39  ;
+  40   
+  41   Positive Variables beta ;
+  42   
+  43   Equations  obj         'objective function'
+  44              err(i)      'regression equation'
+  45              conv(i,h)   'convexity '
+  46  ;
+  47   
+  48   obj..  sse =e= sum(i, e(i)*e(i));
+  49   
+  50   err(i).. y(i) =e= alpha(i) + sum(inp, beta(i,inp)*x(i,inp)) + e(i) ;
+  51   
+  52   conv(i,h).. alpha(i) + sum(inp, beta(i,inp)*x(i,inp)) =g= alpha(h) + sum(inp, beta(h,inp)*x(i,inp));
+  53   
+  54   Model cnls model / all / ;
+GAMS 30.3.0  rc5da09e Released Mar  6, 2020 WEX-WEI x86 64bit/MS Windows                                                                                                                                                               06/18/20 22:48:27 Page 2
+CNLS: production function
+C o m p i l a t i o n
+
+
+  55   
+  56  OPTION QCP=MOSEK;
+  57  OPTION SOLPRINT=OFF, SYSOUT=OFF, LIMROW=0, LIMCOL=0;
+  58   
+  59  Solve cnls using QCP minimizing sse ;
+  60   
+  61  Display alpha.l, beta.l, e.l;
+
+
+COMPILATION TIME     =        0.000 SECONDS      3 MB  30.3.0 rc5da09e WEX-WEI
+GAMS 30.3.0  rc5da09e Released Mar  6, 2020 WEX-WEI x86 64bit/MS Windows                                                                                                                                                               06/18/20 22:48:27 Page 3
+CNLS: production function
+Model Statistics    SOLVE cnls Using QCP From line 59
+
+
+MODEL STATISTICS
+
+BLOCKS OF EQUATIONS           3     SINGLE EQUATIONS          101
+BLOCKS OF VARIABLES           4     SINGLE VARIABLES           31
+NON ZERO ELEMENTS           401     NON LINEAR N-Z             10
+DERIVATIVE POOL              20     CONSTANT POOL              16
+CODE LENGTH                  32
+
+
+GENERATION TIME      =        0.000 SECONDS      4 MB  30.3.0 rc5da09e WEX-WEI
+
+
+EXECUTION TIME       =        0.000 SECONDS      4 MB  30.3.0 rc5da09e WEX-WEI
+GAMS 30.3.0  rc5da09e Released Mar  6, 2020 WEX-WEI x86 64bit/MS Windows                                                                                                                                                               06/18/20 22:48:27 Page 4
+CNLS: production function
+Solution Report     SOLVE cnls Using QCP From line 59
+
+
+               S O L V E      S U M M A R Y
+
+     MODEL   cnls                OBJECTIVE  sse
+     TYPE    QCP                 DIRECTION  MINIMIZE
+     SOLVER  MOSEK               FROM LINE  59
+
+**** SOLVER STATUS     1 Normal Completion         
+**** MODEL STATUS      1 Optimal                   
+**** OBJECTIVE VALUE            67832.6117
+
+ RESOURCE USAGE, LIMIT          0.000      1000.000
+ ITERATION COUNT, LIMIT        14    2000000000
+ EVALUATION ERRORS             NA             0
+
+
+**** REPORT SUMMARY :        0     NONOPT
+                             0 INFEASIBLE
+                             0  UNBOUNDED
+                             0     ERRORS
+                             6  PROJECTED
+GAMS 30.3.0  rc5da09e Released Mar  6, 2020 WEX-WEI x86 64bit/MS Windows                                                                                                                                                               06/18/20 22:48:27 Page 5
+CNLS: production function
+E x e c u t i o n
+
+
+----     61 VARIABLE alpha.L  intercept term
+
+1   31.548,    2   10.575,    3   10.575,    4   10.575,    5   31.560,    6   10.575,    7  -58.359,    8   10.575,    9   10.574,    10 -58.423
+
+
+----     61 VARIABLE beta.L  input coefficients
+
+            j1
+
+1        0.332
+2        0.542
+3        0.542
+4        0.542
+5        0.332
+6        0.542
+7        0.657
+8        0.542
+9        0.542
+10       0.657
+
+
+----     61 VARIABLE e.L  error terms
+
+1    10.221,    2   -18.983,    3   126.812,    4   118.404,    5   -39.779,    6   -68.983,    7    64.199,    8    32.608,    9  -128.698,    10  -95.801
+
+
+
+EXECUTION TIME       =        0.000 SECONDS      3 MB  30.3.0 rc5da09e WEX-WEI
+
+
+USER: Course License Productivity and Efficiency AnalS200408/0001AO-GEN
+      Aalto University, Information and Service Management (ISM) DCE634
+      License for teaching and research at degree granting institutions
+
+
+**** FILE SUMMARY
+
+Input      C:\Users\dais2\Dropbox (Aalto)\StoNED-Python\GAMS\CNLS_cost_vrs.gms
+Output     C:\Users\dais2\Dropbox (Aalto)\StoNED-Python\GAMS\CNLS_cost_vrs.lst
