@@ -58,7 +58,7 @@
 
   > **Comparison with estimates from GAMS/R**
   
-    + [Estimates from GAMS/R/pyStoNED](https://github.com/ds2010/pyStoNED-Tutorials/tree/master/Estimates%20comparison)
+  + [Comparison with estimates](https://github.com/ds2010/pyStoNED-Tutorials/tree/master/Estimates%20comparison)
 
   > **Appendix**
 
