@@ -52,9 +52,9 @@
     + [`DEA` as sign-constrained variant of the `CNLS` problem](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA2CNLS.ipynb)
    
   + Free Disposal Hull (`FDH`)
-    + [Radial input oriented FDH model]()
-    + [Radial output oriented FDH model]()
-    + [`FDH` as sign-constrained variant of the `ICNLS` problem]()
+    + [Radial input oriented FDH model](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/FDH/FDH_io.ipynb)
+    + [Radial output oriented FDH model](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/FDH/FDH_oo.ipynb)
+    + [`FDH` as sign-constrained variant of the `ICNLS` problem](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/FDH/FDH2ICNLS.ipynb)
 
   > **Comparison with estimates from GAMS**
 
