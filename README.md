@@ -56,7 +56,7 @@
     + [Radial output oriented FDH model](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/FDH/FDH_oo.ipynb)
     + [`FDH` as sign-constrained variant of the `ICNLS` problem](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/FDH/FDH2ICNLS.ipynb)
 
-  > **Comparison with estimates from GAMS**
+  > **Comparison with estimates from GAMS/R**
 
 
   > **Appendix**
