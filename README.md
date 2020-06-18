@@ -52,8 +52,8 @@
     + [`DEA` as sign-constrained variant of the `CNLS` problem](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/DEA/DEA2CNLS.ipynb)
    
   + Free Disposal Hull (`FDH`)
-    + [Radial input oriented VRS model]()
-    + [Radial output oriented VRS model]()
+    + [Radial input oriented model]()
+    + [Radial output oriented model]()
     + [`FDH` as sign-constrained variant of the `ICNLS` problem]()
 
   > **Comparison with estimates from GAMS**
