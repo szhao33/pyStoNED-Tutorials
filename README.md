@@ -63,7 +63,7 @@
   > **Appendix**
 
   + [Function List](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/Intro/Function%20List.ipynb) 
-  + [List of Acronym](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Intro/List%20of%20Acronyms.pdf)
+  + [List of Acronyms](https://github.com/ds2010/pyStoNED-Tutorials/blob/master/Intro/List%20of%20Acronyms.pdf)
   + [Solver](https://nbviewer.jupyter.org/github/ds2010/pyStoNED-Tutorials/blob/master/Intro/Solver.ipynb)
 
   > **Extra tutorials**
