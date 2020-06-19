@@ -58,7 +58,7 @@
 
   > **Comparison with estimates from GAMS/R**
   
-  + [Cross-check estimates](https://github.com/ds2010/pyStoNED-Tutorials/tree/master/Cross-check)
+  + [Cross-check estimate](https://github.com/ds2010/pyStoNED-Tutorials/tree/master/Cross-check)
 
   > **Appendix**
 
