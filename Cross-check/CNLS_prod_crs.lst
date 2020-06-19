@@ -1,0 +1,172 @@
+GAMS 30.3.0  rc5da09e Released Mar  6, 2020 WEX-WEI x86 64bit/MS Windows                                                                                                                                                               06/19/20 15:24:36 Page 1
+CNLS: production function
+C o m p i l a t i o n
+
+
+   2  *      by Sheng Dai June 2020
+   3   
+   4  sets i       "DMU's"    /1*10/
+   5       j       'input and output' /j1, j2/
+   6       inp(j)  'input'   /j1/
+   7       outp(j) 'output'  /j2/
+   8  ;
+   9   
+  10  Alias (i,h)
+  11  ;
+  12   
+  13  Table data(i,j)
+  14     j1   j2
+  15  1  100  75
+  16  2  200  100
+  17  3  300  300
+  18  4  500  400
+  19  5  100  25
+  20  6  200  50
+  21  7  600  400
+  22  8  400  260
+  23  9  550  180
+  24  10 600  240
+  25  ;
+  26   
+  27  PARAMETERS
+  28     x(i,inp)  'inputs of firm i'
+  29     y(i)      'outputs of firm i'
+  30  ;
+  31   
+  32  x(i,inp) = data(i,inp);
+  33  y(i)     = data(i,'j2');
+  34   
+  35  Variables  beta(i,j)     'input coefficients'
+  36              e(i)          'error terms'
+  37              sse           'sum of squared errors'
+  38  ;
+  39   
+  40  Positive Variables beta
+  41                     f(i);
+  42   
+  43   Equations  obj         'objective function'
+  44              err(i)      'regression equation'
+  45              conv(i,h)   'convexity '
+  46              qre(i)
+  47  ;
+  48   
+  49   obj..  sse =e= sum(i, e(i)*e(i));
+  50   
+  51   qre(i).. log(y(i)) =e= log(f(i)+1) + e(i);
+  52   
+  53   err(i).. f(i) =e= sum(inp, beta(i,inp)*x(i,inp)) - 1 ;
+  54   
+GAMS 30.3.0  rc5da09e Released Mar  6, 2020 WEX-WEI x86 64bit/MS Windows                                                                                                                                                               06/19/20 15:24:36 Page 2
+CNLS: production function
+C o m p i l a t i o n
+
+
+  55   conv(i,h).. sum(inp, beta(i,inp)*x(i,inp)) =l= sum(inp, beta(h,inp)*x(i,inp));
+  56   
+  57  Model cnls model / all / ;
+  58   
+  59  OPTION nlp=minos;
+  60  OPTION SOLPRINT=OFF, SYSOUT=OFF, LIMROW=0, LIMCOL=0;
+  61   
+  62  Solve cnls using nlp minimizing sse ;
+  63   
+  64  Display beta.l, e.l;
+
+
+COMPILATION TIME     =        0.000 SECONDS      3 MB  30.3.0 rc5da09e WEX-WEI
+GAMS 30.3.0  rc5da09e Released Mar  6, 2020 WEX-WEI x86 64bit/MS Windows                                                                                                                                                               06/19/20 15:24:36 Page 3
+CNLS: production function
+Model Statistics    SOLVE cnls Using NLP From line 62
+
+
+MODEL STATISTICS
+
+BLOCKS OF EQUATIONS           4     SINGLE EQUATIONS          111
+BLOCKS OF VARIABLES           4     SINGLE VARIABLES           31
+NON ZERO ELEMENTS           231     NON LINEAR N-Z             20
+DERIVATIVE POOL              20     CONSTANT POOL              16
+CODE LENGTH                  93
+
+
+GENERATION TIME      =        0.000 SECONDS      4 MB  30.3.0 rc5da09e WEX-WEI
+
+
+EXECUTION TIME       =        0.000 SECONDS      4 MB  30.3.0 rc5da09e WEX-WEI
+GAMS 30.3.0  rc5da09e Released Mar  6, 2020 WEX-WEI x86 64bit/MS Windows                                                                                                                                                               06/19/20 15:24:36 Page 4
+CNLS: production function
+Solution Report     SOLVE cnls Using NLP From line 62
+
+
+               S O L V E      S U M M A R Y
+
+     MODEL   cnls                OBJECTIVE  sse
+     TYPE    NLP                 DIRECTION  MINIMIZE
+     SOLVER  MINOS               FROM LINE  62
+
+**** SOLVER STATUS     1 Normal Completion         
+**** MODEL STATUS      2 Locally Optimal           
+**** OBJECTIVE VALUE                2.2069
+
+ RESOURCE USAGE, LIMIT          0.000      1000.000
+ ITERATION COUNT, LIMIT        27    2000000000
+ EVALUATION ERRORS              0             0
+
+GAMS/MINOS       30.3.0 rc5da09e Released Mar 06, 2020 WEI x86 64bit/MS Win
+M I N O S  5.6      (Jul 2016)
+
+    GAMS/MINOS 5.6, Large Scale Nonlinear Solver
+    B. A. Murtagh, University of New South Wales
+    P. E. Gill, University of California at San Diego,
+    W. Murray, M. A. Saunders, and M. H. Wright,
+    Systems Optimization Laboratory, Stanford University
+
+ Work space allocated           --     0.85 Mb
+
+ EXIT - Optimal Solution found, objective:        2.206942
+
+
+
+**** REPORT SUMMARY :        0     NONOPT
+                             0 INFEASIBLE
+                             0  UNBOUNDED
+                             0     ERRORS
+                            58  PROJECTED
+GAMS 30.3.0  rc5da09e Released Mar  6, 2020 WEX-WEI x86 64bit/MS Windows                                                                                                                                                               06/19/20 15:24:36 Page 5
+CNLS: production function
+E x e c u t i o n
+
+
+----     64 VARIABLE beta.L  input coefficients
+
+            j1
+
+1        0.504
+2        0.504
+3        0.504
+4        0.504
+5        0.504
+6        0.504
+7        0.504
+8        0.504
+9        0.504
+10       0.504
+
+
+----     64 VARIABLE e.L  error terms
+
+1   0.397,    2  -0.009,    3   0.685,    4   0.461,    5  -0.702,    6  -0.702,    7   0.279,    8   0.254,    9  -0.432,    10 -0.232
+
+
+
+EXECUTION TIME       =        0.000 SECONDS      3 MB  30.3.0 rc5da09e WEX-WEI
+
+
+USER: Course License Productivity and Efficiency AnalS200408/0001AO-GEN
+      Aalto University, Information and Service Management (ISM) DCE634
+      License for teaching and research at degree granting institutions
+
+
+**** FILE SUMMARY
+
+Input      C:\Users\dais2\Dropbox (Aalto)\StoNED-Python\GAMS\CNLS_prod_crs.gms
+Output     C:\Users\dais2\Dropbox (Aalto)\StoNED-Python\GAMS\CNLS_prod_crs.lst
