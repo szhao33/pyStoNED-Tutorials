@@ -1,5 +1,5 @@
-GAMS 30.3.0  rc5da09e Released Mar  6, 2020 WEX-WEI x86 64bit/MS Windows                                                                                                                                                               06/19/20 15:24:21 Page 1
-CNLS: production function
+GAMS 30.3.0  rc5da09e Released Mar  6, 2020 WEX-WEI x86 64bit/MS Windows                                                                                                                                                               06/19/20 15:27:22 Page 1
+CNLS: cost function
 C o m p i l a t i o n
 
 
@@ -56,8 +56,8 @@ C o m p i l a t i o n
   52   
   53   err(i).. f(i) =e= sum(inp, beta(i,inp)*x(i,inp)) - 1 ;
   54   
-GAMS 30.3.0  rc5da09e Released Mar  6, 2020 WEX-WEI x86 64bit/MS Windows                                                                                                                                                               06/19/20 15:24:21 Page 2
-CNLS: production function
+GAMS 30.3.0  rc5da09e Released Mar  6, 2020 WEX-WEI x86 64bit/MS Windows                                                                                                                                                               06/19/20 15:27:22 Page 2
+CNLS: cost function
 C o m p i l a t i o n
 
 
@@ -74,8 +74,8 @@ C o m p i l a t i o n
 
 
 COMPILATION TIME     =        0.000 SECONDS      3 MB  30.3.0 rc5da09e WEX-WEI
-GAMS 30.3.0  rc5da09e Released Mar  6, 2020 WEX-WEI x86 64bit/MS Windows                                                                                                                                                               06/19/20 15:24:21 Page 3
-CNLS: production function
+GAMS 30.3.0  rc5da09e Released Mar  6, 2020 WEX-WEI x86 64bit/MS Windows                                                                                                                                                               06/19/20 15:27:22 Page 3
+CNLS: cost function
 Model Statistics    SOLVE cnls Using NLP From line 62
 
 
@@ -92,8 +92,8 @@ GENERATION TIME      =        0.000 SECONDS      4 MB  30.3.0 rc5da09e WEX-WEI
 
 
 EXECUTION TIME       =        0.000 SECONDS      4 MB  30.3.0 rc5da09e WEX-WEI
-GAMS 30.3.0  rc5da09e Released Mar  6, 2020 WEX-WEI x86 64bit/MS Windows                                                                                                                                                               06/19/20 15:24:21 Page 4
-CNLS: production function
+GAMS 30.3.0  rc5da09e Released Mar  6, 2020 WEX-WEI x86 64bit/MS Windows                                                                                                                                                               06/19/20 15:27:22 Page 4
+CNLS: cost function
 Solution Report     SOLVE cnls Using NLP From line 62
 
 
@@ -131,8 +131,8 @@ M I N O S  5.6      (Jul 2016)
                              0  UNBOUNDED
                              0     ERRORS
                             58  PROJECTED
-GAMS 30.3.0  rc5da09e Released Mar  6, 2020 WEX-WEI x86 64bit/MS Windows                                                                                                                                                               06/19/20 15:24:21 Page 5
-CNLS: production function
+GAMS 30.3.0  rc5da09e Released Mar  6, 2020 WEX-WEI x86 64bit/MS Windows                                                                                                                                                               06/19/20 15:27:22 Page 5
+CNLS: cost function
 E x e c u t i o n
 
 
